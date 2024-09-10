@@ -85,4 +85,8 @@
 #
 # bot.polling(none_stop=True)
 print("Hello world")
-input("How r u?")
+answer = input("How r u?")
+if answer == "nice":
+    print(":)")
+else:
+    print(":(")
